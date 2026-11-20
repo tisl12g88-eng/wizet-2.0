@@ -30,9 +30,7 @@ jobs:
       - name: Unzip Android project
         run: |
           mkdir -p project
-          unzip -q SamsungMusicWidget2_Source.zip -d project
-          echo "Project files:"
-          ls -la project
+          unzip -q SamsungMusicWidget2_Fixed_Source.zip -d project
 
       - name: Set up Gradle
         uses: gradle/actions/setup-gradle@v4
